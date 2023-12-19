@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;700&display=swap');
 
 :root{
-    --cor-primaria: #0F0F0F;
-    --cor-secundaria: #5B8FB9;
-    --cor-terciaria: #8FD6E1;
-    --cor-hoover:#301E67;
+    --cor-primaria: #0F0F0F; 
+    --cor-secundaria: #faebd7;
+    --cor-terciaria: #D35D6E;
+    --cor-hoover:#FF8080;
     --fonte: 'Dosis', sans-serif;
 }
 
@@ -22,13 +22,14 @@
 .cabecalho__menu{
     display: flex;
     gap: 80px;
+    
 }
 
 .cabecalho__menu__link{
     font-size: 24px ;
     font-weight: 500;
     font-family: var(--fonte);
-    color:var(--cor-terciaria);
+    color:var(--cor-secundaria);
     text-decoration: none;
 }
 
@@ -78,7 +79,7 @@ body {
 }
 
 .apresentacao__links__sub{
-    font-weight: 400;
+    font-weight: 700;
     font-family: var(--fonte);
     font-size: 24px;
     
@@ -110,10 +111,10 @@ body {
 
     .rodape{
         padding: 24px;
-        color: var(--cor-primaria);
+        color:var(--cor-secundaria);
         background-color: var(--cor-terciaria);
         text-align: center;
-        font-weight: 200;
+        font-weight: 500;
         font-family: var(--fonte);
         font-size: 24px;
     }
